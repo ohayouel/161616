@@ -205,10 +205,10 @@ p {
 	z-index: 13;
 }
 .note01 {
-	width: 870px;
+	width: 700px;
 	height: 200px;
 	margin-top: 152px;
-	margin-left: 67px;
+	margin-left: 40px;
 }
 .note02 {
 	width: 270px;
@@ -241,11 +241,11 @@ p {
 	line-height: 50px;
 	filter: blur(1px);
 }
-.note001, .note003, .note004 {
+.note003, .note004 {
 	text-align: center;
 }
 .note001 {
-	margin-top: 50px;
+	margin-top: 100px;
 }
 .note004 {
 	margin-left: 200px;
@@ -280,4 +280,28 @@ p {
 		margin-top: 1775px;
 		margin-left: 850px;
 	}
+}
+.notehead {
+	position: absolute;
+	z-index: 999;
+	width: 470px;
+	height: 500px;
+	margin-top: 32px;
+	margin-left: 507px;
+}
+.notehead1, .notehead2 {
+	font-family: 'chalk';
+	font-size: 31.5px;
+	letter-spacing: 0.09px;
+	line-height: 50px;
+	filter: blur(1px);
+}
+.notehead1 {
+	font-size: 55px;
+	margin-left: 220px;
+	margin-top: 5px;
+}
+.notehead2 {
+	margin-top: 60px;
+	margin-left: 150px;
 }
