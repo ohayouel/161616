@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+@font-face {
+	font-family: "chalk";
+	src: url('two/three/Chalkboard.ttf') format('truetype');
+}
+@font-face {
+	font-family: "brush";
+	src: url('two/three/Quentin.otf') format('truetype');
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    width: 1000px;
+    height: 3371px;
+}
+.bg {
+    margin: auto;
+    width: 1000px;
+	z-index: 1;
+}
+img {
+	position: absolute;
+	z-index: 13;
+	margin-top: -500px;
+}
+.emot01 {
+	width: 190px;
+	margin-top: 2463px;
+	margin-left: 30px;
+	animation-name: emoji;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  }
+  
+  @keyframes emoji {
+	0%   {top:0px; rotate: 0deg;}
+	40%  {top:0px; rotate: 0deg;}
+	45%  {top:5px; rotate: 5deg;}
+	55%  {top:-5px; rotate: -5deg;}
+	60%  {top:0px; rotate: 0deg;}
+	100% {top:0px; rotate: 0deg;}
+  }
+.emot02 {
+	width: 190px;
+	margin-top: 2673px;
+	margin-left: 770px;
+	animation-name: emoji;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.emot03 {
+	width: 140px;
+	margin-top: 1633px;
+	margin-left: 20px;
+	animation-name: emoji;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-name: emoji;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.emot04 {
+	width: 295px;
+	margin-top: 269px;
+	margin-left: 625px;
+	animation-name: emoji;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.emot05 {
+	width: 45px;
+	margin-top: 253px;
+	margin-left: 583px;
+	filter: blur(0.7px);
+}
+.tape01 {
+	width: 324px;
+	margin-top: 1102px;
+	margin-left: 434px;
+	animation-name: emoji;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.tape02 {
+	width: 287px;
+	margin-top: 1362px;
+	margin-left: 716px;
+	animation-name: emoji;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.tape03 {
+	width: 317px;
+	margin-top: 2919px;
+	margin-left: 515px;
+	animation-name: emoji;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+p {
+	position: absolute;
+	z-index: 14;
+}
+.m01 {
+	font-size: 65px;
+	font-family: 'brush';
+	margin-top: 1105px;
+	margin-left: 100px;
+	rotate: -6deg;
+	filter: blur(1.3px);
+}
+.m02 {
+	font-size: 65px;
+	font-family: 'brush';
+	margin-top: 1775px;
+	margin-left: 770px;
+	rotate: -85deg;
+	filter: blur(1.3px);
+}
+.m03 {
+	font-size: 75px;
+	font-family: 'brush';
+	margin-top: 2897px;
+	margin-left: 430px;
+	rotate: -2deg;
+	filter: blur(1.3px);
+}
+.note01, .note02, .note03, .note04 {
+	position: absolute;
+	z-index: 13;
+}
+.note01 {
+	width: 870px;
+	height: 200px;
+	margin-top: 152px;
+	margin-left: 67px;
+}
+.note02 {
+	width: 270px;
+	height: 400px;
+	margin-top: 543px;
+	margin-left: 700px;
+}
+.note03 {
+	width: 640px;
+	height: 100px;
+	margin-top: 2106px;
+	margin-left: 52px;
+}
+.note03 {
+	width: 640px;
+	height: 100px;
+	margin-top: 2106px;
+	margin-left: 52px;
+}
+.note04 {
+	width: 700px;
+	height: 100px;
+	margin-top: 3110px;
+	margin-left: 152px;
+}
+.note001, .note002, .note003, .note004 {
+	font-family: 'chalk';
+	font-size: 31.5px;
+	letter-spacing: 0.09px;
+	line-height: 50px;
+	filter: blur(1px);
+}
+.note001, .note003, .note004 {
+	text-align: center;
+}
+.note001 {
+	margin-top: 50px;
+}
+.note004 {
+	margin-left: 200px;
+	font-size: 50px;
+}
+.note002 {
+	line-height: 54px;
+	text-align: right;
+}
+.kaki {
+	position: absolute;
+	z-index: 1;
+	width: 1000px;
+	height: 32px;
+	margin-top: 3282px;
+	text-align: center;
+	color: #000000;
+	font-size: 31.5px;
+    font-family: 'chalk';
+    filter: blur(1px);
+}
+.textkakia {
+	color: #000000;
+	font-size: 31.5px;
+	text-decoration: none;
+}
+.textkakia:hover {
+	color: #707070;
+}
+@media (max-width: 1069px) {
+	.m02 {
+		margin-top: 1775px;
+		margin-left: 850px;
+	}
+}
